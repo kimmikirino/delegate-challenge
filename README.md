@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Assignment:
+- Build a page layout shown below to build a master detail application to display and
+update person data.
+- Use the following public rest api at: https://reqres.in/ to consume their user api endpoint
+https://reqres.in/api/users?page=1 to get a list of persons.
+- Display the results in the person's grid and implement the pagination for it.
+- Display the person data details in person detail section when selecting a row in the grid
+- Select first row on initial load of page
+- Update the person data and call the update api endpoint at: https://reqres.in/
+- Reflect the changes in the person detail section and the persons grid.
+- Write unit tests to validate above functionality. (or just explain how and what you would
+test)
 ## Available Scripts
 
 In the project directory, you can run:

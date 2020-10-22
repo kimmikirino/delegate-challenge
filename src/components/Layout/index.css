@@ -1,0 +1,7 @@
+.ant-layout.layout  {
+  min-height: 100vh;
+}
+
+.layout .ant-layout-content {
+  padding: 20px;
+}
