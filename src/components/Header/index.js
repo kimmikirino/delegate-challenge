@@ -4,8 +4,6 @@ import { Layout, Menu } from "antd";
 const AntdHeader = Layout.Header;
 
 const Header = () => {
-  // const handleClick = () => {};
-  // selectedKeys={[current]}
   return (
     <AntdHeader>
       <div className="logo" />
