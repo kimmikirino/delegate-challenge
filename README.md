@@ -8,12 +8,12 @@ The goal of this challenge is to build a user list, user detail and user update.
 ## Assignment x Development:
 
 - Build a page layout shown below to build a master detail application to display and
-update person data. 
-Jaqueline: created a SPA with just one page to show the user information and detail.
+update person data. <br />
+<i>Jaqueline: created a SPA with just one page to show the user information and detail.</i>
 
 - Use the following public rest api at: https://reqres.in/ to consume their user api endpoint
-https://reqres.in/api/users?page=1 to get a list of persons.
-Jaqueline: axios was used to make REST API call.
+https://reqres.in/api/users?page=1 to get a list of persons.<br />
+<i>Jaqueline: axios was used to make REST API call.</i>
 
 - Display the results in the person's grid and implement the pagination for it.
 ![User grid - Table component from Antd lib][user_grid]
@@ -21,17 +21,17 @@ Jaqueline: axios was used to make REST API call.
 - Display the person data details in person detail section when selecting a row in the grid
 ![User detail - All components from Antd lib][user_detail]
 
-- Select first row on initial load of page
-Jaqueline: First row will be selected in every change page too.
+- Select first row on initial load of page<br />
+<i>Jaqueline: First row will be selected in every change page too.</i>
 
-- Update the person data and call the update api endpoint at: https://reqres.in/
-Jaqueline: When clicking on the Save button, API will be called using axios and PUT data type. The reqres API accepts any body request and always returns success, so it will send all information from the form.
+- Update the person data and call the update api endpoint at: https://reqres.in/<br />
+<i>Jaqueline: When clicking on the Save button, API will be called using axios and PUT data type. The reqres API accepts any body request and always returns success, so it will send all information from the form.</i>
 
-- Reflect the changes in the person detail section and the persons grid.
-Jaqueline: After the PUT API call went well the data will be saved locally (React Context API). However, when changing pages, a new request will be sent where the saved data will be replaced by data from the API.
+- Reflect the changes in the person detail section and the persons grid.<br />
+<i>Jaqueline: After the PUT API call went well the data will be saved locally (React Context API). However, when changing pages, a new request will be sent where the saved data will be replaced by data from the API.</i>
 
-- Write unit tests to validate above functionality. (or just explain how and what you would test)
-Jaqueline: I could not write unit tests, but I would use react-testing-library to test an interaction of the component, such as a click and check if the component has changed as expected.
+- Write unit tests to validate above functionality. (or just explain how and what you would test)<br />
+<i>Jaqueline: I could not write unit tests, but I would use react-testing-library to test an interaction of the component, such as a click and check if the component has changed as expected.</i>
 
 ## Result
 
