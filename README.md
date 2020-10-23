@@ -15,11 +15,13 @@ update person data. <br />
 https://reqres.in/api/users?page=1 to get a list of persons.<br />
 <i>Jaqueline: axios was used to make REST API call.</i>
 
-- Display the results in the person's grid and implement the pagination for it.
-![User grid - Table component from Antd lib][user_grid]
+- Display the results in the person's grid and implement the pagination for it.<br />
+<i>Jaqueline: Table component from Antd lib.</i>
+![User grid][user_grid]
 
-- Display the person data details in person detail section when selecting a row in the grid
-![User detail - All components from Antd lib][user_detail]
+- Display the person data details in person detail section when selecting a row in the grid<br />
+<i>Jaqueline: All components from Antd lib.</i>
+![User detail][user_detail]
 
 - Select first row on initial load of page<br />
 <i>Jaqueline: First row will be selected in every change page too.</i>
