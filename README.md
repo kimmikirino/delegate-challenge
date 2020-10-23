@@ -5,6 +5,10 @@
 
 The goal of this challenge is to build a user list, user detail and user update.
 
+## Result
+
+https://kimmikirino.github.io/delegate-challenge/
+
 ## Assignment x Development:
 
 - Build a page layout shown below to build a master detail application to display and
@@ -34,10 +38,6 @@ https://reqres.in/api/users?page=1 to get a list of persons.<br />
 
 - Write unit tests to validate above functionality. (or just explain how and what you would test)<br />
 <i>Jaqueline: I could not write unit tests, but I would use react-testing-library to test an interaction of the component, such as a click and check if the component has changed as expected.</i>
-
-## Result
-
-https://kimmikirino.github.io/delegate-challenge/
 
 ## Technologies
 
