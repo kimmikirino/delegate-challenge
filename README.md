@@ -31,7 +31,7 @@ https://reqres.in/api/users?page=1 to get a list of persons.<br />
 <i>Jaqueline: First row will be selected in every change page too.</i>
 
 - Update the person data and call the update api endpoint at: https://reqres.in/<br />
-<i>Jaqueline: When clicking on the Save button, API will be called using axios and PUT data type. The reqres API accepts any body request and always returns success, so it will send all information from the form.</i>
+<i>Jaqueline: When clicking on the Save button, API will be called using axios and PUT data type. The reqres API accepts any body request and always returns successfully, so it will send all information from the form.</i>
 
 - Reflect the changes in the person detail section and the persons grid.<br />
 <i>Jaqueline: After the PUT API call went well the data will be saved locally (React Context API). However, when changing pages, a new request will be sent where the saved data will be replaced by data from the API.</i>
